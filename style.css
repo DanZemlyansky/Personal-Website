@@ -1,0 +1,172 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#jobtitle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#wtext {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    font-weight: lighter;
+    font-size: 9em;
+    font-family: 'Oxanium', cursive;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-shadow: rgba(0, 0, 0, 0.352);
+
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: rgba(80, 32, 117, 0.645);
+}
+
+.span {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 170%;
+    color: rgb(92, 0, 47);
+}
+
+
+.info {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 0;
+    padding-top: 4%;
+}
+
+
+.ico {
+    flex:0 0 0 ;
+    transition: 0.3s;
+}
+
+.ico:hover {
+    font-size: xx-large;
+}
+
+.fa {
+    font-size: 48px;
+}
+
