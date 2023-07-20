@@ -150,23 +150,24 @@ body {
 .info {
     width: 60%;
     margin-left: 20%;
+    margin-top: 4%;
     display: flex;
     justify-content: space-around;
     flex: 0 0 0;
-    padding-top: 4%;
 }
 
 
 .ico {
     flex:0 0 0 ;
-    transition: 0.3s;
+    
 }
 
-.ico:hover {
-    font-size: xx-large;
+.fa:hover {
+    margin-top: -30%;
 }
 
 .fa {
     font-size: 48px;
+    transition: 0.2s;
 }
 
