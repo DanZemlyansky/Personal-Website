@@ -111,7 +111,7 @@ table {
     border-spacing: 0;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -121,7 +121,7 @@ a{
     justify-content: space-evenly;
 }
 
-#wtext {
+h1 {
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
@@ -136,16 +136,29 @@ a{
 
 body {
     font-family: 'VT323', monospace;
-    background-color: rgba(80, 32, 117, 0.645);
+    background-color: rgba(31, 31, 31, 1);
 }
 
-.span {
+h1 {
+    color: rgb(60, 169, 242);
+}
+
+.char {
+    color: rgb(115, 128, 128);
+}
+.subtitle {
     display: flex;
     justify-content: space-evenly;
     font-size: 170%;
-    color: rgb(92, 0, 47);
+    color: rgb(172, 76, 31);
 }
 
+#about {
+    display: inline;
+    position: absolute;
+    top:48%;
+    left: 30%;
+}
 
 .info {
     width: 60%;
@@ -158,12 +171,13 @@ body {
 
 
 .ico {
-    flex:0 0 0 ;
-    
+    flex: 0 0 0;
+
 }
 
 .fa:hover {
     margin-top: -30%;
+    color: rgb(60, 169, 242);
 }
 
 .fa {
@@ -171,3 +185,46 @@ body {
     transition: 0.2s;
 }
 
+.section {
+    font-family: 'Oxanium', cursive;
+    text-align: center;
+    width: 80%;
+    font-size: 17px;
+
+}
+
+.section1 {
+    text-align: center;
+    width: 80%;
+    margin-left: 9.5%;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+#cvcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flavortext {
+    width: 50%;
+    text-align: justify;
+    margin: 5% 37.3% 6%;
+    font-weight: 200;
+
+}
+
+
+.listitem {
+    margin: 0.3%;
+}
+
+
+.education,
+.cert {
+    margin-bottom: 20%;
+}
+
+.skills {
+    margin-bottom: 5%;
+}
