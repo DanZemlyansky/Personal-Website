@@ -146,6 +146,7 @@ h1 {
 .char {
     color: rgb(115, 128, 128);
 }
+
 .subtitle {
     display: flex;
     justify-content: space-evenly;
@@ -155,9 +156,71 @@ h1 {
 
 #about {
     display: inline;
-    position: absolute;
-    top:48%;
-    left: 30%;
+    position: relative;
+    top: 0.2rem;
+    left: -12%;
+    color: rgb(172, 76, 31);
+}
+
+.brace {
+    color: rgb(255, 215, 16);
+    position: relative;
+    display: inline;
+    left: -11%;
+}
+
+.brace1 {
+    color: rgb(255, 215, 16);
+    position: relative;
+    display: inline;
+    top: -3rem;
+    left: -15.5%;
+}
+
+.brace2,.brace3 {
+    display: inline;
+    color: rgb(255, 215, 16);
+}
+.flavortext {
+    width: 50%;
+    height: 50%;
+    text-align: justify;
+    margin: 1% 37.3% 5%;
+    font-weight: 200;
+    color: rgb(124, 220, 254);
+
+}
+
+.education {
+    width: 70%;
+    text-align: justify;
+    margin: 20% auto;
+color: rgb(172, 76, 31);
+}
+
+.edutitle {
+    color: rgb(60, 169, 242);
+}
+ul {
+    color: rgb(172, 76, 31);
+}
+
+.let,
+.cvtext,
+.equals {
+    display: inline;
+}
+
+.let {
+    color: rgb(86, 156, 214);
+}
+
+.cvtext {
+    color: rgb(60, 169, 242);
+}
+
+.equals {
+    color: rgb(206, 206, 206);
 }
 
 .info {
@@ -186,9 +249,10 @@ h1 {
 }
 
 .section {
-    font-family: 'Oxanium', cursive;
+    font-family: 'Inconsolata', serif;
     text-align: center;
     width: 80%;
+    height: 80%;
     font-size: 17px;
 
 }
@@ -206,23 +270,15 @@ h1 {
     justify-content: space-evenly;
 }
 
-.flavortext {
-    width: 50%;
-    text-align: justify;
-    margin: 5% 37.3% 6%;
-    font-weight: 200;
-
-}
-
 
 .listitem {
     margin: 0.3%;
 }
 
 
-.education,
 .cert {
     margin-bottom: 20%;
+    color: rgb(60, 169, 242);
 }
 
 .skills {
